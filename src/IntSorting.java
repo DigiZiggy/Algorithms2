@@ -8,6 +8,8 @@ import java.util.*;
  * @version 3.0
  * @since 1.6
  */
+
+
 public class IntSorting {
 
    /** maximal array length */
@@ -108,8 +110,24 @@ public class IntSorting {
     *           array to be sorted
     */
    public static void binaryInsertionSort(int[] a) {
-      // TODO!!! Your method here!
-   }
+        // declares an array of integers
+        int[] anArray = {8, 3, 4, 2, 6, 9, 1, 6, 3, 7};
+
+        for(int i = 1; i < anArray.length; i++) {
+
+            int element_under_comparison = anArray[i];
+            int previous_index = i-1;
+
+            while (previous_index >= 0 && anArray[previous_index] > element_under_comparison) {
+                anArray[previous_index+1] = anArray[previous_index];
+                previous_index = previous_index - 1;
+            }
+            anArray[previous_index+1] = element_under_comparison;
+
+        }
+        System.out.println(Arrays.toString(anArray));
+    }
+
 
    /**
     * Sort a part of the array using quicksort method.
