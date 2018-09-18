@@ -110,41 +110,43 @@ public class IntSorting {
     *           array to be sorted
     */
    public static void binaryInsertionSort(int[] a) {
-       // declares an array of integers
-        int[] anArray = {1, 3, 4, 2, 6, 9, 2, 6, 3, 7};
+       //insertion search
+       for (int i = 1; i < a.length; i++) {
+           int lowest_index = 0;
+           int highest_index = i;
+           int current_element = a[i];
+           int previous_index = i-1;
 
-        int to_insert = 0;
+           //binary search
+           while (lowest_index < highest_index) {
 
-        for(int i = 1; i < a.length; i++) {
+               //find the index of middle element of the array
+               int middle = (highest_index + lowest_index) / 2;
 
-            int lowest_index = 0;
-            int highest_index = i - 1;
-
-            to_insert = a[i];
-
-            while (lowest_index <= highest_index) {
-                //find the index of middle element of the array
-                int middle_index = (highest_index + lowest_index) / 2;
-
-                //if the element we are comparing is larger than the middle element
-                if (a[i] > a[middle_index]) {
-                    //every element before that will be chucked,
-                    //the new lowest index will be one higher from previous middle index
-                    lowest_index = middle_index + 1;
-
-                } else {
-                    //every element after that will be chucked,
-                    //the new highest index will be one smaller from previous middle index
-                    highest_index = middle_index - 1;
-                }
+               //if the element we are comparing is larger than the middle element
+               if (current_element >= a[middle]) {
+                   /*
+                    *every element before that will be chucked away
+                    *the new lowest index will be one higher from previous middle index
+                    */
+                   lowest_index = middle + 1;
+               } else {
+                   /*
+                    *every element after that will be chucked away
+                    *the new highest index will be previous middle index
+                    */
+                   highest_index = middle;
+               }
+           }
+           //insertion continue
+           while (previous_index >= 0 && a[previous_index] > current_element) {
+               a[previous_index+1] = a[previous_index];
+               previous_index = previous_index - 1;
             }
-
-            for (int j = i; j > lowest_index; j--) {
-                a[j] = a[j - 1];
-            }
-            a[lowest_index] = to_insert;
+            a[previous_index+1] = current_element;
 
         }
+
    }
 
 
