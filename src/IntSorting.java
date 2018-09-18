@@ -110,23 +110,21 @@ public class IntSorting {
     *           array to be sorted
     */
    public static void binaryInsertionSort(int[] a) {
-        // declares an array of integers
-        int[] anArray = {8, 3, 4, 2, 6, 9, 1, 6, 3, 7};
+       // declaring an array of integers
+       int[] anArray = {1, 3, 4, 2, 6, 9, 2, 6, 3, 7};
 
-        for(int i = 1; i < anArray.length; i++) {
-
-            int element_under_comparison = anArray[i];
-            int previous_index = i-1;
-
-            while (previous_index >= 0 && anArray[previous_index] > element_under_comparison) {
-                anArray[previous_index+1] = anArray[previous_index];
-                previous_index = previous_index - 1;
-            }
-            anArray[previous_index+1] = element_under_comparison;
-
-        }
-        System.out.println(Arrays.toString(anArray));
-    }
+       int new_element;
+       for(int i = 1; i < a.length; i++) {
+           for(int j = i ; j > 0 ; j--){
+               if(a[j] < a[j-1]){
+                   new_element = a[j];
+                   a[j] = a[j-1];
+                   a[j-1] = new_element;
+               }
+           }
+       }
+       System.out.println(Arrays.toString(a));
+   }
 
 
    /**
