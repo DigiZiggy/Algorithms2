@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e273ab6f-3642-4888-b691-437e5c36664d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/homework2/IntSorting.class" afterPath="$PROJECT_DIR$/out/production/homework2/IntSorting.class" />
       <change beforePath="$PROJECT_DIR$/src/IntSorting.java" afterPath="$PROJECT_DIR$/src/IntSorting.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,11 +30,11 @@
       <file leaf-file-name="IntSorting.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/IntSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="116" column="42" lean-forward="true" selection-start-line="116" selection-start-column="42" selection-end-line="116" selection-end-column="42" />
+            <state relative-caret-position="232">
+              <caret line="139" column="13" lean-forward="false" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
               <folding>
-                <element signature="e#4882#4883#0" expanded="true" />
-                <element signature="e#4926#4927#0" expanded="true" />
+                <element signature="e#5663#5664#0" expanded="true" />
+                <element signature="e#5707#5708#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -345,7 +343,7 @@
       <option name="presentableId" value="Default" />
       <updated>1536581807417</updated>
       <workItem from="1536581808793" duration="1393000" />
-      <workItem from="1537189493150" duration="21751000" />
+      <workItem from="1537189493150" duration="22129000" />
     </task>
     <servers />
   </component>
@@ -382,7 +380,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23144000" />
+    <option name="totallyTimeSpent" value="23522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="86" y="24" width="1274" height="805" extended-state="0" />
@@ -470,11 +468,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IntSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="116" column="42" lean-forward="true" selection-start-line="116" selection-start-column="42" selection-end-line="116" selection-end-column="42" />
+        <state relative-caret-position="232">
+          <caret line="139" column="13" lean-forward="false" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
           <folding>
-            <element signature="e#4882#4883#0" expanded="true" />
-            <element signature="e#4926#4927#0" expanded="true" />
+            <element signature="e#5663#5664#0" expanded="true" />
+            <element signature="e#5707#5708#0" expanded="true" />
           </folding>
         </state>
       </provider>
