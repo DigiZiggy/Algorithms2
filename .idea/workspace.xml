@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e273ab6f-3642-4888-b691-437e5c36664d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/homework2/IntSorting.class" afterPath="$PROJECT_DIR$/out/production/homework2/IntSorting.class" />
       <change beforePath="$PROJECT_DIR$/src/IntSorting.java" afterPath="$PROJECT_DIR$/src/IntSorting.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,11 +32,11 @@
       <file leaf-file-name="IntSorting.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/IntSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="148" column="0" lean-forward="true" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+            <state relative-caret-position="545">
+              <caret line="142" column="45" lean-forward="false" selection-start-line="142" selection-start-column="45" selection-end-line="142" selection-end-column="45" />
               <folding>
+                <element signature="e#5779#5780#0" expanded="true" />
                 <element signature="e#5823#5824#0" expanded="true" />
-                <element signature="e#5867#5868#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,7 +45,7 @@
       <file leaf-file-name="IntSortingTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/IntSortingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="75">
               <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
@@ -142,6 +144,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,9 +166,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntSorting">
+  <component name="RunManager" selected="JUnit.IntSortingTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -323,9 +325,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.IntSorting" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Trial" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.IntSortingTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.IntSortingTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.IntSorting" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Trial" />
       </list>
     </recent_temporary>
   </component>
@@ -343,14 +345,12 @@
       <option name="presentableId" value="Default" />
       <updated>1536581807417</updated>
       <workItem from="1536581808793" duration="1393000" />
-      <workItem from="1537189493150" duration="23729000" />
+      <workItem from="1537189493150" duration="23877000" />
+      <workItem from="1537290204652" duration="253000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IntSortingTest - 2018.09.17 at 18h 41m 30s.xml">
-      <configuration name="IntSortingTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IntSortingTest - 2018.09.17 at 19h 44m 13s.xml">
       <configuration name="IntSortingTest" configurationId="JUnit" />
     </history-entry>
@@ -378,24 +378,26 @@
     <history-entry file="IntSortingTest - 2018.09.18 at 09h 14m 15s.xml">
       <configuration name="IntSortingTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IntSortingTest - 2018.09.19 at 21h 03m 52s.xml">
+      <configuration name="IntSortingTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25122000" />
+    <option name="totallyTimeSpent" value="25523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="69" y="23" width="1274" height="805" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -439,6 +441,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="142" column="45" lean-forward="false" selection-start-line="142" selection-start-column="45" selection-end-line="142" selection-end-column="45" />
+          <folding>
+            <element signature="e#5779#5780#0" expanded="true" />
+            <element signature="e#5823#5824#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/description.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#402#408#0" expanded="true" />
+            <element signature="e#427#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/description.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -450,17 +474,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trial.java" />
     <entry file="file://$PROJECT_DIR$/test/IntSortingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="75">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
@@ -468,11 +485,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IntSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="148" column="0" lean-forward="true" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+        <state relative-caret-position="545">
+          <caret line="142" column="45" lean-forward="false" selection-start-line="142" selection-start-column="45" selection-end-line="142" selection-end-column="45" />
           <folding>
+            <element signature="e#5779#5780#0" expanded="true" />
             <element signature="e#5823#5824#0" expanded="true" />
-            <element signature="e#5867#5868#0" expanded="true" />
           </folding>
         </state>
       </provider>

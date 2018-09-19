@@ -138,13 +138,9 @@ public class IntSorting {
                    highest_index = middle;
                }
            }
-           //insertion continue
-           while (previous_index >= 0 && a[previous_index] > current_element) {
-               a[previous_index+1] = a[previous_index];
-               previous_index = previous_index - 1;
-            }
-            a[previous_index+1] = current_element;
-
+           //replace elements of array arraycopy(Object src, int srcPos, Object dest, int destPos, int length)
+           System.arraycopy(a, lowest_index, a, lowest_index + 1, i - lowest_index);
+           a[lowest_index] = current_element;
         }
 
    }
